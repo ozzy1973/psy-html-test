@@ -1,0 +1,33 @@
+.katalog {
+  display: flex;
+  grid-template-columns: auto auto auto;
+  border: solid 5px black;
+}
+
+.lista {
+  width: 25%;
+  border-right: 1px solid gray;
+  padding-right: 10px;
+}
+
+.rasa {
+  width: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.zdjecie {
+  width: 200px;
+}
+
+.detale {
+  width: 75%;
+}
+
+.opis {
+  display: none;
+}
+
+#pies1-detale {
+  display: block;
+}
